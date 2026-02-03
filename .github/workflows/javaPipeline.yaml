@@ -15,8 +15,10 @@ on:
         required: true
         type: string      
       java-version:
-        required: true
-        type: string 
+    secrets:
+      token:
+      required: false
+        
 
 
 jobs:
